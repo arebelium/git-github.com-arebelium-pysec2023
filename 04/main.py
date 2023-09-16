@@ -50,3 +50,34 @@ if (long_enough and upper_letters and lower_letters and special_characters and a
 else:
     print("Unfortunately, your password doesn't match the criteria. \nIt should contain: \n- at least 8 characters, \n- both upper and lower letters, \n- digits, \n- special characters.")
 
+# Range loop - prints numbers in a user chosen range that are palindromes (reads the same way forwards as backwards).
+print("-----------Palindrome finder-----------")
+not_valid = True
+while (not_valid):
+    start = input("Enter the start of the range: ")
+    if (not start.isnumeric()):
+        print("You did not enter a number!")
+        continue
+    end = input("Enter the end of the range: ")
+    if (not end.isnumeric()):
+        print("You did not enter a number!")
+        continue
+    start_num = int(start)
+    end_num = int(end)
+    if (start_num>end_num):
+        print("Start number can't be larger than the end number!")
+        continue
+    if (end_num-start_num>1000000):
+        print("Let's not try to break any records today. Please choose a smaller range.")
+        continue
+    not_valid = False
+print("------------------------")
+print(f"Palindromes in the range {start_num} to {end_num}:")
+count_pal = 0
+for num in range(start_num, end_num + 1):
+    num_str = str(num)
+    if num_str == num_str[::-1]:
+        count_pal +=1
+        print(num)
+if count_pal == 0:
+    print("No palindromes were found :(")

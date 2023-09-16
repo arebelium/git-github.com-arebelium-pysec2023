@@ -5,3 +5,4 @@
 2. For Loop <br>
 `Password strength checker - user enters his password and the program tells if it matches the criteria (lenght (>7), has upper, lower characters, numbers and special characters).`
 3. Range Loop
+`Ran out of ideas so decided to create a math related task - program prints numbers in a user chosen range that are palindromes (reads the same way forwards as backwards).`
