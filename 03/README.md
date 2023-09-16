@@ -20,7 +20,7 @@ people_ages["Baiba"] # print value for key "Baiba"
 ```
 3. Set
 ```python
-set1 = {"Windows", "Linux", "Mac"} # initialize in a hard coded way way
+set1 = {"Windows", "Linux", "Mac"} # initialize in a hard coded way
 set2 = set(["Windows", "Linux", "Mac", "Linux"]) # initialize from list
 set1.add("Android") # add
 union_set = set1.union(set2) # merge
