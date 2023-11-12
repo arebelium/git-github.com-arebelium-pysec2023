@@ -25,7 +25,7 @@ signal.signal(signal.SIGINT, signal_handler)
 ```
 ## and exit gracefully (without throwing exception).
 Output example:
-```python
+```bash
 Time passed: 0 seconds
 Time passed: 1 seconds
 Time passed: 2 seconds
