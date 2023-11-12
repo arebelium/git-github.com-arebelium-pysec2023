@@ -1,0 +1,67 @@
+Nov 12 10:30:00 localhost kernel: [ 0.000000] Initializing cgroup subsys cpuset
+Nov 12 10:30:00 localhost kernel: [ 0.000000] Initializing cgroup subsys cpu
+Nov 12 10:30:01 localhost kernel: [ 0.000000] Initializing cgroup subsys cpuacct
+Nov 12 10:30:01 localhost kernel: [ 0.000000] Linux version 5.10.0-28-generic (buildd@lgw01-amd64-045) (gcc (Ubuntu 10.3.0-1ubuntu1) 10.3.0, GNU ld (GNU Binutils for Ubuntu) 2.36.1) #30-Ubuntu SMP Fri Jul 30 19:44:52 UTC 2021
+Nov 12 10:30:01 localhost kernel: [ 0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-28-generic root=UUID=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d ro quiet splash
+Nov 12 10:30:02 localhost systemd: Started Session 1 of user john.
+Nov 12 10:30:03 localhost NetworkManager[1234]: <info>  [1636722603.1234] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/1)
+Nov 12 10:30:03 localhost kernel: [ 1.234567] usb 2-1.2: new high-speed USB device number 3 using ehci-pci
+Nov 12 10:30:03 localhost kernel: [ 1.345678] usb 2-1.2: New USB device found, idVendor=1234, idProduct=5678, bcdDevice=12.34
+Nov 12 10:30:03 localhost kernel: [ 1.456789] usb 2-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 12 10:30:03 localhost kernel: [ 1.567890] usb 2-1.2: Product: USB Example Device
+Nov 12 10:30:03 localhost kernel: [ 1.678901] usb 2-1.2: Manufacturer: Example Inc
+Nov 12 10:30:03 localhost kernel: [ 1.789012] usb 2-1.2: SerialNumber: 123456
+Nov 12 10:30:04 localhost systemd-udevd[5678]: Process '/usr/sbin/alsactl restore 0' failed with exit code 1.
+Nov 12 10:30:04 localhost kernel: [ 2.123456] usbcore: registered new interface driver usb-storage
+Nov 12 10:30:04 localhost kernel: [ 2.234567] usbcore: registered new interface driver uas
+Nov 12 10:30:04 localhost systemd[1]: Started User Manager for UID 1000.
+Nov 12 10:30:04 localhost dbus-daemon: [system] Successfully activated service 'org.freedesktop.systemd1'
+Nov 12 10:30:05 localhost systemd[1]: Started Getty on tty1.
+Nov 12 10:30:05 localhost kernel: [ 3.345678] usb 2-1.2: USB disconnect, device number 3
+Nov 12 10:30:05 localhost kernel: [ 3.456789] usb 2-1.2: new high-speed USB device number 4 using ehci-pci
+Nov 12 10:30:05 localhost kernel: [ 3.567890] usb 2-1.2: New USB device found, idVendor=abcd, idProduct=efgh, bcdDevice=56.78
+Nov 12 10:30:05 localhost kernel: [ 3.678901] usb 2-1.2: New USB device strings: Mfr=4, Product=5, SerialNumber=6
+Nov 12 10:30:05 localhost kernel: [ 3.789012] usb 2-1.2: Product: Another USB Device
+Nov 12 10:30:05 localhost kernel: [ 3.890123] usb 2-1.2: Manufacturer: Example Co
+Nov 12 10:30:05 localhost kernel: [ 4.001234] usb 2-1.2: SerialNumber: 987654
+Nov 12 10:30:06 localhost NetworkManager[1234]: <info>  [1636722606.1234] device (wlan0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov 12 10:30:06 localhost kernel: [ 4.345678] usb 2-1.2: USB disconnect, device number 4
+Nov 12 10:30:06 localhost kernel: [ 4.456789] usb 2-1.2: new high-speed USB device number 5 using ehci-pci
+Nov 12 10:30:06 localhost kernel: [ 4.567890] usb 2-1.2: New USB device found, idVendor=5678, idProduct=abcd, bcdDevice=90.12
+Nov 12 10:30:06 localhost kernel: [ 4.678901] usb 2-1.2: New USB device strings: Mfr=7, Product=8, SerialNumber=9
+Nov 12 10:30:06 localhost kernel: [ 4.789012] usb 2-1.2: Product: Yet Another USB Device
+Nov 12 10:30:06 localhost kernel: [ 4.890123] usb 2-1.2: Manufacturer: Example Ltd
+Nov 12 10:30:06 localhost kernel: [ 5.001234] usb 2-1.2: SerialNumber: 135792
+Nov 12 10:31:00 hostname kernel: [ 123.456789] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Nov 12 10:31:15 hostname systemd: Mounting /mnt/usb_device...
+Nov 12 10:31:20 hostname kernel: [ 124.567890] usb 1-1: New USB device found, idVendor=abcd, idProduct=1234
+Nov 12 10:31:20 hostname kernel: [ 124.567891] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 12 10:31:20 hostname kernel: [ 124.567892] usb 1-1: Product: USB Example Device
+Nov 12 10:31:20 hostname kernel: [ 124.567893] usb 1-1: Manufacturer: Example Manufacturer
+Nov 12 10:31:20 hostname mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:12.2/usb1/1-1"
+Nov 12 10:31:20 hostname mtp-probe: bus: 1, device: 2 was not an MTP device
+Nov 12 10:32:00 hostname dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Nov 12 10:32:00 hostname kernel: [ 125.678901] usb 1-1: USB disconnect, device number 2
+Nov 12 10:32:00 hostname systemd: Stopping User Manager for UID 1000...
+Nov 12 10:32:00 hostname systemd: Stopped target Default.
+Nov 12 10:32:00 hostname systemd: Stopped target Basic System.
+Nov 12 10:32:00 hostname systemd: Stopped target Paths.
+Nov 12 10:32:00 hostname systemd: Stopped target Sockets.
+Nov 12 10:32:00 hostname systemd: Removed slice User Slice of UID 1000.
+Nov 12 11:01:01 myhostname CRON[1234]: (root) CMD ( /usr/local/bin/my_script.sh )
+Nov 12 11:10:05 myhostname kernel: [ 123.456789] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Nov 12 11:10:05 myhostname kernel: [ 123.567890] usb 1-1: New USB device found, idVendor=abcd, idProduct=1234
+Nov 12 11:10:05 myhostname kernel: [ 123.678901] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 12 11:10:05 myhostname kernel: [ 123.789012] usb 1-1: Product: MyUSBDevice
+Nov 12 11:10:05 myhostname kernel: [ 123.890123] usb 1-1: Manufacturer: MyManufacturer
+Nov 12 11:10:05 myhostname kernel: [ 123.901234] usb 1-1: SerialNumber: 123456
+Nov 12 11:15:00 myhostname sshd[5678]: Accepted publickey for user from 192.168.1.2 port 1234 ssh2
+Nov 12 11:20:00 myhostname sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 12 11:20:01 myhostname CRON[5679]: (root) CMD (/usr/local/bin/another_script.sh)
+Nov 12 11:30:00 myhostname kernel: [ 234.567890] usb 1-2: new full-speed USB device number 3 using xhci_hcd
+Nov 12 11:30:00 myhostname kernel: [ 234.678901] usb 1-2: New USB device found, idVendor=efgh, idProduct=5678
+Nov 12 11:30:00 myhostname kernel: [ 234.789012] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 12 11:30:00 myhostname kernel: [ 234.890123] usb 1-2: Product: AnotherUSBDevice
+Nov 12 11:30:00 myhostname kernel: [ 234.901234] usb 1-2: Manufacturer: AnotherManufacturer
+Nov 12 11:30:00 myhostname kernel: [ 234.912345] usb 1-2: SerialNumber: 987654
+
