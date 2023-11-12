@@ -29,7 +29,6 @@ lower_letters = False
 digit = False
 special_characters = False
 allowed_special_characters = "!@#$%^&*?"
-all_allowed_characters = True
 
 for character in input_password:
     if character.isupper():
@@ -41,14 +40,13 @@ for character in input_password:
     elif character in allowed_special_characters:
         special_characters = True
     else:
-        all_allowed_characters = False
-        print("The password contains unallowed special characters. The allowed characters are:",special_characters)
+        print("The password contains unallowed special characters. The allowed characters are:",allowed_special_characters)
         break
-
-if (long_enough and upper_letters and lower_letters and special_characters and all_allowed_characters):
-    print("Good job! Your password matches the criteria!")
 else:
-    print("Unfortunately, your password doesn't match the criteria. \nIt should contain: \n- at least 8 characters, \n- both upper and lower letters, \n- digits, \n- special characters.")
+    if (long_enough and upper_letters and lower_letters and digit and special_characters):
+        print("Good job! Your password matches the criteria!")
+    else:
+        print("Unfortunately, your password doesn't match the criteria. \nIt should contain: \n- at least 8 characters, \n- both upper and lower letters, \n- digits, \n- special characters.")
 
 # Range loop - prints numbers in a user chosen range that are palindromes (reads the same way forwards as backwards).
 print("-----------Palindrome finder-----------")
